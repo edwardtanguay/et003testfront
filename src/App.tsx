@@ -60,7 +60,7 @@ function App() {
 
 	return (
 		<div className="App">
-			<h1>Our Language Tandem Group</h1>
+			<h1>Our Language Group</h1>
 			{pageIsLoaded() && currentUser.username !== 'anonymousUser' && (
 				<div className="userFullName">
 					<span>
